@@ -289,13 +289,22 @@ input{
     font-family: sans-serif;
     font-weight: 500;
     padding: 10px;
+    font-size: 30px;
+    
+
+}
+
+.comments .text .t1 h1 b{
+    color: rgb(241, 122, 10);
+    
+    
     
 
 }
 
 
 
-.comments .text .t2{
+.comments .text .t2 h1{
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 500;
@@ -405,7 +414,8 @@ input{
     color: rgb(231, 114, 11);
 }
 
-        /* product */
+/* product */
+
 .product {
     margin-top: 50px;
     display: flex;
@@ -504,24 +514,72 @@ footer{
     border-radius: 50px;
 }
 
-footer .address{
-    color: brown;
+
+footer .text{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
-footer .nav{
+
+footer .text h1 b{
+    color: rgb(218, 75, 8);
+}
+
+footer .text h3{
+    margin-top: 20px;
+}
+
+
+
+footer .feature{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     font-size: 20px;
 }
 
-footer .nav a{
+footer .feature h4{
+    color: rgb(165, 97, 42);
+}
+
+footer .feature a{
     text-decoration: none;
+    color: black;
+    margin-right: 5px;
+    margin: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+footer .address{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer .address .topic h4{
+    color: rgb(165, 61, 42);
+    margin-left: 20px;
+ 
+}
+
+
+footer .address .address_1{
+    display: flex;
+    justify-content: flex-start;
+    
+ 
+}
+
+
+footer .address .address_1 i{
     color: brown;
-    padding: 5px;
+    
+
+    
+ 
 }
 
 footer .account{
@@ -530,6 +588,7 @@ footer .account{
     justify-content: space-around;
     font-size: 20px;
     margin-right: 10px;
+    margin-left: 40px;
 }
 
 footer .account .follow{
@@ -540,9 +599,12 @@ footer .account .follow{
 
 footer .account .follow i{
     padding: 15px;
-    background-color: brown;
-    color: white;
-    border: 1px solid black;
-    border-radius: 10px;
+    color: rgb(165, 61, 42);
     margin: 2px;
+    font-size: 30px;
+}
+
+footer .account h4{
+    margin-bottom: 80px;
+    
 }
